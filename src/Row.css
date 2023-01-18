@@ -1,0 +1,44 @@
+
+.heading {
+    background-color: black;
+    color: rgb(255, 238, 238);
+    padding: 8px;
+    font-weight: bold;
+    font-size: small;
+    letter-spacing: 0.2rem;
+
+}
+
+.content{
+    height: max-content;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.image-slide{
+    width: 100%; 
+}
+
+.image-slide .img-put{
+    height: 150px;
+    width: 250px;
+    border-radius: 2px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.imgside{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin: 10px;
+}
+div::-webkit-scrollbar {
+    display: none;
+  }
+
+
+

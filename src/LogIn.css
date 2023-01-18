@@ -1,0 +1,92 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/935156fb-9579-4fc2-ad94-70680402b8ef/3689d1b9-def2-446b-bc6c-ba159a4469f8/IN-en-20230109-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.log_in_cred {
+    position: sticky;
+}
+
+.nav_logo {
+    position: fixed;
+    height: 50px;
+    top: 30px;
+    left: 40px;
+}
+
+.sign_in {
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    color: white;
+    background-color: #e50914;
+    font-size: 1rem;
+    border: none;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+}
+
+.black_shadow {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent 60%, rgba(0, 0, 0, .8));
+}
+
+.login_form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent !important;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+    background: black;
+    color: white;
+}
+.formik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formik h1{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login_input{
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    height: 50px!important;
+    min-width: 450px;
+}
+.getStarted{
+    color: white;
+    background-color: #e50914;
+    font-size: 1rem;
+    border: none;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+    height: 50px;
+    width: 170px;
+}
+.our-story-card-title{
+    width: 50%;
+    text-align: center;
+}
